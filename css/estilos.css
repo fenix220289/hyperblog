@@ -58,4 +58,10 @@ vertical-align: middle;
 background: white;
 padding: 16px;
 }
-
+#footer
+{
+background: rgb(14, 3, 54);
+color: rgb(203, 245, 17);
+text-align: center;
+padding: 00.5em;
+}
