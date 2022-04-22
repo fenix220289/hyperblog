@@ -12,7 +12,7 @@ body {
         
         background-color: rgb(224, 238, 238);
         width: 70%;
-        padding: 16px;
+        padding: 20px;
         text- aling: left;
         border: 2px solid rgb(25, 167, 79);
         margin: auto;
@@ -32,6 +32,11 @@ body {
     margin: 0;
     padding: 16px;
 }
+#cabecera #logo
+{
+width:40px;
+vertical-align: middle;
+}
 
 #cabecera #tagline
 {
@@ -50,6 +55,7 @@ body {
 }
 #post
 {
+background: white;
 padding: 16px;
 }
 
