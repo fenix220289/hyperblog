@@ -1,16 +1,18 @@
-body {
-    background-color: aquamarine;
-    color: rgb(25, 167, 79);
+body 
+{
+    background: url(../imagenes/37924.jpg);
+    background-size: 100%;
+    color: rgb(11, 12, 12);
     text-align: Left;
     font-family: "Arial";
     font-size: 16px;
-    margin: 0 ;
+    margin: 200px ;
     padding: 0;
 }
 #container
     {
         
-        background-color: rgb(224, 238, 238);
+        background-color: rgb(19, 21, 139);
         width: 70%;
         padding: 20px;
         text- aling: left;
@@ -25,7 +27,7 @@ body {
 #cabecera
 {
 
-    background: rgb(1, 1, 43);
+    background: rgb(190, 13, 137);
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
@@ -60,8 +62,8 @@ padding: 16px;
 }
 #footer
 {
-background: rgb(14, 3, 54);
-color: rgb(203, 245, 17);
+background: rgb(190, 13, 137);
+color: rgb(247, 247, 247);
 text-align: center;
 padding: 00.5em;
 }
