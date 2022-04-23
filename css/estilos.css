@@ -2,17 +2,32 @@ body
 {
     background: url(../imagenes/37924.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     color: rgb(11, 12, 12);
     text-align: Left;
     font-family: "Arial";
     font-size: 16px;
-    margin: 200px ;
+    margin: 200px 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.figure1, .figure2
+{
+background: url(../imagenes/flor1.png);
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+height: 285px;
+width: 400px;
+}
+.mensaje
+{
+margin-left: 30px;    
 }
 #container
     {
         
-        background-color: rgb(19, 21, 139);
         width: 70%;
         padding: 20px;
         text- aling: left;
@@ -26,13 +41,15 @@ body
 }
 #cabecera
 {
-
+    
+    display: flex;
     background: rgb(190, 13, 137);
     box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
     color: white;
     font-weight: bold;
     margin: 0;
     padding: 16px;
+    
 }
 #cabecera #logo
 {
@@ -67,3 +84,46 @@ color: rgb(247, 247, 247);
 text-align: center;
 padding: 00.5em;
 }
+#footer > h2
+{
+font-size: 16px;    
+}
+.box
+{
+display: grid;
+justify-content: center;   
+align-content: center; 
+}
+.heart{
+    --size: 30px;
+    --color: rgb(243, 7, 172);
+    transform:rotate(45deg);
+    animation:beat 1s infinite alternate ease-in-out;
+  }
+  @keyframes beat{
+    to{
+      transform: rotate(45deg) scale(1.05);
+    }
+  }
+  
+  .heart,
+  .heart::before,
+  .heart::after{
+      width: var(--size);
+      height: var(--size);
+      background:var(--color);
+  }
+  .heart::before,
+  .heart::after{
+    content:'';
+    display: block;
+    border-radius:50%;
+  }
+  .heart::before{
+    margin-top: calc(var(--size)*-.5);
+   
+  }
+  .heart::after{
+    margin-top: calc(var(--size)* -0.5);
+    margin-left: calc(var(--size)* -0.5);
+  }
